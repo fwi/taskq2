@@ -1,0 +1,3 @@
+mvn install:install-file -Dpackaging=pom -DpomFile=${dist.artifactId}-parent-${project.version}-pom.xml -Dfile=${dist.artifactId}-parent-${project.version}-pom.xml
+mvn install:install-file -Dfile=${dist.artifactId}-core-${project.version}.jar -DpomFile=${dist.artifactId}-core-${project.version}-pom.xml -Dsources=${dist.artifactId}-core-${project.version}-sources.jar
+mvn install:install-file -Dfile=${dist.artifactId}-jdbc-${project.version}.jar -DpomFile=${dist.artifactId}-jdbc-${project.version}-pom.xml -Dsources=${dist.artifactId}-jdbc-${project.version}-sources.jar
