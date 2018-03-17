@@ -1,4 +1,4 @@
-This package contains the compiled (Java 8) code from ${dist.artifactId} (${project.url}).
+This package contains the compiled (Java 8) code from ${dist.artifactId} (${project.parent.url}).
 
 The Maven install script (file "mvninstall") can be used to install the artifacts locally.
 
