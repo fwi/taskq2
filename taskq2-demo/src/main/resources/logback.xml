@@ -32,7 +32,7 @@
 
 	<logger name="com.github.fwi.taskq2" level="info" />
 	<logger name="com.github.fwi.taskq2.db" level="debug" />
-	<logger name="com.github.fwi.taskq2.demo" level="info" />
+	<logger name="com.github.fwi.taskq2.demo" level="debug" />
 
 	<root level="info">
 		<appender-ref ref="FILE" />

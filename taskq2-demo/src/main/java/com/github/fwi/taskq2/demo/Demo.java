@@ -88,7 +88,7 @@ public class Demo implements Closeable {
 	 * To see what and when the queues are doing work,
 	 * set this number to 10 and enable debug logging as explained above. 
 	 */
-	final int AMOUNT_OF_TASKS = 10_000;
+	final int AMOUNT_OF_TASKS = 8;
 	
 	/*
 	 * How long to wait for processing of all tasks.

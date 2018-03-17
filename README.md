@@ -22,7 +22,8 @@ Features:
 
 # Core
 
-The core has only one depedency on `slf4j-api`. It is suited for managing work from a batch.
+The core has only one depedency on `slf4j-api` and Java 8 (Java 7 will probably work as well, untested though). 
+It is suited for managing work from a batch.
 The core can manage all resources (like thread-pools) internally and once all tasks are added,
 a call to `awaitAllTasksDone` can be used to wait for all processing to be done.
 This simple form of usage is shown in the test-class [TestTqTasksSimple](./taskq2-core/src/test/java/com/github/fwi/taskq2/TestTqTasksSimple.java). 
