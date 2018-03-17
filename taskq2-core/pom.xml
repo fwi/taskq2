@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>com.github.fwi</groupId>
 		<artifactId>taskq2-parent</artifactId>
-		<version>2.0.0</version>
+		<version>2.0.1-SNAPSHOT</version>
 		<relativePath>../taskq2-parent</relativePath>
 	</parent>
 	<artifactId>taskq2-core</artifactId>
